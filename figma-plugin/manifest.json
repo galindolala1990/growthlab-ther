@@ -1,0 +1,7 @@
+{
+  "name": "Starter Figma Plugin",
+  "id": "starter-figma-plugin",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html"
+}

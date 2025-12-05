@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Figma Plugin Starter</h2>
+    <button id="close">Close Plugin</button>
+    <script>
+      document.getElementById('close').onclick = () => {
+        parent.postMessage({ pluginMessage: { type: 'close-plugin' } }, '*');
+      };
+    </script>
+  </body>
+</html>
