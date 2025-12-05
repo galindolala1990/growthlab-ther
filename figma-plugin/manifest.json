@@ -3,6 +3,6 @@
   "id": "starter-figma-plugin",
   "api": "1.0.0",
   "main": "code.js",
-  "ui": "ui.html",
+  "ui": "dist/ui.html",
   "editorType": ["figma", "figjam", "dev", "sites", "slides", "buzz"]
 }
