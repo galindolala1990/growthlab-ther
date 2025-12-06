@@ -1,3 +1,4 @@
+console.log('ui.js loaded');
 
 import './tailwind.css';
 import React, { useEffect } from 'react';
