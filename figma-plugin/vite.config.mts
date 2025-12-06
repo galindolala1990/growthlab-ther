@@ -15,6 +15,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
+      input: path.resolve(__dirname, 'ui.html'),
       output: {
         manualChunks(id) {
           if (id.includes('node_modules')) {
@@ -23,6 +24,7 @@ export default defineConfig({
             return 'vendor';
           }
         },
+        entryFileNames: '[name].js',
       },
     },
     chunkSizeWarningLimit: 1000,
