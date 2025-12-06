@@ -8,7 +8,11 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
-  "include": ["src"]
+  "include": ["src", "ui.tsx", "code.ts"]
 }
